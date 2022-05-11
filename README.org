@@ -1,0 +1,1 @@
+Remind me to keep reading [[https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html][SICP]]
