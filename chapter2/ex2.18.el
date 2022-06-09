@@ -6,7 +6,7 @@
 
 
 (defun ex-reverse (list)
-  (if (equal (cdr list) nil)
+  (if (not (cdr list))
       list
     (append (ex-reverse (cdr list))
             (list (car list)))))

@@ -7,7 +7,7 @@
 
 
 (defun last-pair (list)
-  (if (equal (cdr list) nil)
+  (if (not (cdr list))
       (car list)
     (last-pair (cdr list))))
 

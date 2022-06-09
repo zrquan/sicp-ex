@@ -20,7 +20,7 @@
 (defun square (x) (* x x))
 
 (defun square-list (items)
-  (if (equal items nil)
+  (if (not items)
       nil
     (cons (square (car items))
           (square-list (cdr items)))))
